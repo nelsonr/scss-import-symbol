@@ -1,4 +1,5 @@
 {
+	"publisher": "nelsonrodrigues",
 	"name": "scss-import-symbol",
 	"displayName": "SCSS @import list",
 	"description": "List SCSS @import as symbols",
