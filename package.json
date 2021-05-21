@@ -1,6 +1,6 @@
 {
 	"name": "scss-import-symbol",
-	"displayName": "scss-import-symbol",
+	"displayName": "SCSS @import list",
 	"description": "List SCSS @import as symbols",
 	"version": "0.0.1",
 	"engines": {
@@ -10,17 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:scss-import-symbol.helloWorld"
+		"onLanguage:scss"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "scss-import-symbol.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
